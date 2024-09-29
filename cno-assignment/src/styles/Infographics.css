@@ -1,0 +1,51 @@
+/* Infographic.css */
+.infographic-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.infographic-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  color: #333;
+}
+
+.key-components {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.component {
+  text-align: center;
+}
+
+.process-list, .benefits-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+blockquote {
+  font-style: italic;
+  border-left: 2px solid #ccc;
+  padding-left: 10px;
+  margin: 20px 0;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9em;
+}
