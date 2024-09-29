@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Typography, Box, Button } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 function Summary() {
   const handleClose = () => {
@@ -24,15 +25,25 @@ function Summary() {
         </Typography>
         
         <Box marginTop={3}>
-          <Button 
-            variant="contained" 
-            color="secondary" 
-            onClick={handleClose} 
-            style={{ padding: '10px 20px' }}
-          >
-            Close
-          </Button>
-        </Box>
+  <Button 
+    variant="contained" 
+    color="primary" 
+    href="/unlock-reflection" 
+    style={{ padding: '10px 20px', minWidth: '150px', marginRight: '10px' }} 
+    component={Link} to="/"
+  >
+    Back to Home
+  </Button>
+  <Button 
+    variant="contained" 
+    color="secondary" 
+    onClick={handleClose} 
+    style={{ padding: '10px 20px', minWidth: '150px' }}
+  >
+    Close
+  </Button>
+</Box>
+
       </Box>
     </Container>
   );
