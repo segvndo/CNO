@@ -35,10 +35,13 @@ function Home() {
       }}
     >
       <Typography variant="h3" gutterBottom align="center">
-        My Reflections on CNO Principle 4.1
+        Hi, it's Bea 🐝
       </Typography>
+      {/* <Typography variant="h4" gutterBottom align="center">
+        This is My Reflection on CNO Principle 4.1
+      </Typography> */}
       <Typography paragraph align="center">
-        Welcome to my reflection on Principle 4.1 of the College of Nurses of Ontario (CNO) Code of Conduct. As a student nurse, I've been learning the importance of self-reflection, especially in terms of my interactions with my peers, professors, and individuals outside of class.
+        Welcome to my <b>reflection on Principle 4.1 of the College of Nurses of Ontario (CNO) Code of Conduct</b>. As a student nurse, I've been learning the importance of self-reflection, especially in terms of my interactions with my peers, professors, and individuals outside of class.
       </Typography>
       
       <Box display="flex" flexDirection="row" gap={2} justifyContent="center" mt={2}>
